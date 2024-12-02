@@ -15,7 +15,7 @@ namespace AdventOfCodeOne
             {
                 int[] nums = lines[i].Split("   ").Select(int.Parse).ToArray(); 
                 numbersOne[i] = nums[0]; 
-                numbersTwo[i] = nums[1]; 
+                numbersTwo[i] = nums[1];
             }
             Array.Sort(numbersOne);
             Array.Sort(numbersTwo);
